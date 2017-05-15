@@ -17,7 +17,6 @@ public class MDatabase {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-	// TODO Auto-generated method stub
 		//MDatabase mdata = new MDatabase();
 		/*objSignUp signup = new objSignUp();
 		signup.user_name="Bipul";
