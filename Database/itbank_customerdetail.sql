@@ -43,7 +43,7 @@ CREATE TABLE `customerdetail` (
 
 LOCK TABLES `customerdetail` WRITE;
 /*!40000 ALTER TABLE `customerdetail` DISABLE KEYS */;
-INSERT INTO `customerdetail` VALUES (1,1,'Bipul','Ranjan','Kumar','bipulranjan_kumar@infosys.com','+918600008961','E-604,Swiss County,Thergaon,Pune');
+INSERT INTO `customerdetail` VALUES (1,1,'Bipul','Ranjan','Kumar','bipulranjankumar@gmail.com','+918600008961','E-604,Swiss County,Thergaon,Pune');
 /*!40000 ALTER TABLE `customerdetail` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
