@@ -1,8 +1,8 @@
-package com.itbank.controller;
+package main.com.itbank.controller;
 import javax.servlet.http.Cookie;
 
-import com.itbank.model.*;
-import com.itbank.object.*;
+import main.com.itbank.model.*;
+import main.com.itbank.object.*;
 
 public class CBankDetail {
 	

@@ -1,3 +1,4 @@
+
 -- MySQL dump 10.13  Distrib 5.7.9, for Win32 (AMD64)
 --
 -- Host: localhost    Database: itbank
@@ -19,10 +20,10 @@
 -- Table structure for table `authentication`
 --
 
-DROP TABLE IF EXISTS `authentication`;
+DROP TABLE IF EXISTS itbank.authentication;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `authentication` (
+CREATE TABLE itbank.authentication (
   `UserId` int(11) NOT NULL AUTO_INCREMENT,
   `User_Name` varchar(45) NOT NULL,
   `Password` varchar(45) NOT NULL,
@@ -36,9 +37,9 @@ CREATE TABLE `authentication` (
 -- Dumping data for table `authentication`
 --
 
-LOCK TABLES `authentication` WRITE;
+LOCK TABLES itbank.authentication WRITE;
 /*!40000 ALTER TABLE `authentication` DISABLE KEYS */;
-INSERT INTO `authentication` VALUES (1,'bipul_ranjan','Company','Customer');
+INSERT INTO itbank.authentication VALUES (1,'bipul_ranjan','Company','Customer');
 /*!40000 ALTER TABLE `authentication` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -19,10 +19,10 @@
 -- Table structure for table `customerdetail`
 --
 
-DROP TABLE IF EXISTS `customerdetail`;
+DROP TABLE IF EXISTS itbank.customerdetail;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `customerdetail` (
+CREATE TABLE itbank.customerdetail (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
   `UserId` int(11) DEFAULT NULL,
   `CustomerFirstName` varchar(45) DEFAULT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE `customerdetail` (
 
 LOCK TABLES `customerdetail` WRITE;
 /*!40000 ALTER TABLE `customerdetail` DISABLE KEYS */;
-INSERT INTO `customerdetail` VALUES (1,1,'Bipul','Ranjan','Kumar','bipulranjankumar@gmail.com','+918600008961','E-604,Swiss County,Thergaon,Pune');
+INSERT INTO itbank.customerdetail VALUES (1,1,'Bipul','Ranjan','Kumar','bipulranjankumar@gmail.com','+918600008961','E-604,Swiss County,Thergaon,Pune');
 /*!40000 ALTER TABLE `customerdetail` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

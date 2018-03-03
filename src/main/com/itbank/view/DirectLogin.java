@@ -1,4 +1,4 @@
-package com.itbank.view;
+package main.com.itbank.view;
 
 import java.io.IOException;
 

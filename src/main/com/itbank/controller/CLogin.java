@@ -1,6 +1,6 @@
-package com.itbank.controller;
-import com.itbank.model.*;
-import com.itbank.object.*;
+package main.com.itbank.controller;
+import main.com.itbank.model.*;
+import main.com.itbank.object.*;
 
 public class CLogin {
 	

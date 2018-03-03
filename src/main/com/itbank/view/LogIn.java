@@ -1,4 +1,4 @@
-package com.itbank.view;
+package main.com.itbank.view;
 
 
 import java.io.IOException;
@@ -10,8 +10,8 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import com.itbank.controller.*;
-import com.itbank.object.*;
+import main.com.itbank.controller.*;
+import main.com.itbank.object.*;
 
 /**
  * Servlet implementation class LogIn

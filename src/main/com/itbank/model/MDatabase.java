@@ -1,11 +1,10 @@
 /**
  * 
  */
-package com.itbank.model;
+package main.com.itbank.model;
+
 import java.sql.*;
-
-
-import com.itbank.object.*;
+import main.com.itbank.object.*;
 
 /**
  * @author bipulranjan_kumar
@@ -36,10 +35,10 @@ public class MDatabase {
 	}
 	// JDBC driver name and database URL
 	   static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-	   static final String DB_URL = "jdbc:mysql://bank-application.czv02bjwu53f.ap-south-1.rds.amazonaws.com:3306";
+	   static final String DB_URL = "jdbc:mysql://localhost:3306/itbank";
 	//  Database credentials
-	   static final String USER = "bankapplication";
-	   static final String PASS = "bankapplication";
+	   static final String USER = "devops";
+	   static final String PASS = "Test123";
 	   
 	   
 	   private Connection getConnection ()

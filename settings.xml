@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <servers>
+    <server>
+      <username>admin</username>
+      <password>Test123</password>
+      <id>central</id>
+    </server>
+    <server>
+      <username>admin</username>
+      <password>Test123</password>
+      <id>snapshots</id>
+    </server>
+  </servers>
+  <pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+  <profiles>
+    <profile>
+      <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>lib-release</name>
+          <url>http://localhost:8081/artifactory/lib-release</url>
+        </repository>
+        <repository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>libs-snapshot</name>
+          <url>http://localhost:8081/artifactory/libs-snapshot</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>lib-release</name>
+          <url>http://localhost:8081/artifactory/lib-release</url>
+        </pluginRepository>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>libs-snapshot</name>
+          <url>http://localhost:8081/artifactory/libs-snapshot</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <id>artifactory</id>
+    </profile>
+    <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                <sonar.host.url>
+                  http://localhost:9000
+                </sonar.host.url>
+            </properties>
+        </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>artifactory</activeProfile>
+  </activeProfiles>
+  
+</settings>
