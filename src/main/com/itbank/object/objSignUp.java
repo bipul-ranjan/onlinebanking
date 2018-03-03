@@ -1,4 +1,4 @@
-package com.itbank.object;
+package main.com.itbank.object;
 
 public class objSignUp {
 	
